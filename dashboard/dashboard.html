@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - CMCT</title>
+  <link rel="stylesheet" href="../css/style.css" >
+</head>
+<body class="dashboard-screen">
+  <div class="container dashboard">
+
+    <!-- Top nav icons -->
+    <div class="dashboard-nav">
+        <img src="../images/profile.png" class="nav-icon" alt="Profile" >
+        <img src="../images/lock_icon.png" class="nav-icon" alt="Security" >
+        <img src="../images/help_icon.png" class="nav-icon" alt="Help" >
+        <img src="../images/settings_icon.png" class="nav-icon" alt="Settings" >
+      </div>
+
+    <!-- Welcome + Daily Report CTA -->
+    <div class="report-box">
+      <p><strong>Hello, <span class="highlight">Name</span></strong><br>
+      Complete your daily report</p>
+      <a href="daily-report.html" class="arrow-btn">→</a>
+    </div>
+
+    <!-- Score Cards -->
+    <div class="score-cards">
+      <div class="score-card"><span class="highlight">6</span>/10<br><small>Respiratory Rate</small></div>
+      <div class="score-card"><span class="highlight">7</span>/10<br><small>Flow Rate</small></div>
+      <div class="score-card"><span class="highlight">8</span>/10<br><small>CO2</small></div>
+    </div>
+
+    <!-- Treatment Plan -->
+    <button type="button" class="treatment-btn">Treatment Plan</button>
+    <!-- Last 5 Days -->
+    <div class="chart-box">
+      <strong>Last 5<br>Days</strong>
+    </div>
+  </div>
+</body>
+</html>

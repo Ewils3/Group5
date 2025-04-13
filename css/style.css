@@ -1,0 +1,289 @@
+/* General Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f7fffd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  /* Image & Branding */
+  .lungs-logo {
+    width: 40%;
+    max-width: 220px;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #97b5ff;
+    margin: 0;
+  }
+  
+  .subtitle, .tagline {
+    font-size: 1rem;
+    color: #97b5ff;
+    margin-top: 0.5rem;
+  }
+  
+  /* Buttons */
+  .button {
+    display: block;
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background-color: #a390f0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Form Inputs */
+  input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .icon-circle {
+    background-color: #a390f0;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .link-small {
+    font-size: 0.8rem;
+    color: #97b5ff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .profile-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .button,
+  button {
+    align-self: center;
+  }
+  
+  a.button {
+    display: inline-block;
+  }
+  .return-btn, .next-btn, .signup-btn, .login-btn {
+    margin-top: 15px;
+  }
+  /* Dashboard styles */
+.dashboard {
+  padding: 1rem;
+}
+
+.dashboard-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.report-box {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.highlight {
+  color: #a390f0;
+}
+
+.arrow-btn {
+  background-color: #a390f0;
+  color: white;
+  font-size: 1.5rem;
+  padding: 8px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.score-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.score-card {
+  background: white;
+  width: 30%;
+  padding: 0.75rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score-card small {
+  display: block;
+  font-weight: normal;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.treatment-btn {
+  background-color: #a4d8de;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.chart-box {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* dashboard
+/* Dashboard styles */
+.dashboard {
+  padding: 1rem;
+}
+
+.dashboard-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.report-box {
+  background-color: white;
+  border-radius: 16px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.highlight {
+  color: #a390f0;
+}
+
+.arrow-btn {
+  background-color: #a390f0;
+  color: white;
+  font-size: 1.5rem;
+  padding: 8px 14px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.score-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.score-card {
+  background: white;
+  width: 30%;
+  padding: 0.75rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score-card small {
+  display: block;
+  font-weight: normal;
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.treatment-btn {
+  background-color: #a4d8de;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.chart-box {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 1.2rem;
+}
